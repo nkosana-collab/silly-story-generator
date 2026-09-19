@@ -40,6 +40,7 @@ function generateStory() {
     const name = customName.value
     newStory = newStory.replace('Bob', name);
   }
+  
 
   if (document.getElementById("uk").checked) {
     const weight = `${Math.round(300/14)} stone`;
